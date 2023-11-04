@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #1E1E1E;
+    text-align: center;
+    height: 100px;
+    padding-top: 20px;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+span {
+    color: hsl(207, 81%, 61%);
+}
+
+nav {
+    margin-top: 10px;
+}
+
+a {
+    font-size: 25px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #fff;
+    margin: 20px;
+    padding-bottom: 30px;
+}
+
+a:hover {
+    color: rgb(30, 134, 246);
+}
+
+.capa {
+    background-image: url(./imagens/capafundo.png);
+    height: 100%; /* A imagem ocupará 100% da altura da janela de visualização */
+    width: auto;
+    background-size: cover; /* ajustar o tamanho da imagem */
+    background-position: center; /* posicionar a imagem */
+    background-repeat: no-repeat; /* evitar repetição da imagem */
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+div {
+    width: 25vw;
+    height: 350px;
+}
+
+.imagens {
+    display: inline-block;
+    text-align: center;
+    width: 30vw;
+    height: 350px;
+    margin: 5px;
+}
+
+.imagens img {
+    width: 20vw;
+    height: 350px;
+    border-radius: 30px;
+}
+
+figcaption {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.seta {
+    top: 200px;
+    width: 30px;
+    border: solid 1px white;
+    margin-bottom: 230px;
+}
+
+.seta img {
+    top: 200px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.seta:hover {
+    background-color: #6d6d6d;
+    border-radius: 20px;
+}
+
+.esquerda {
+    left: 10px;
+}
+
+.direita {
+    right: 10px;
+}
+
+button {
+    font-size: 15px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    width: 100px;
+    height: 30px;
+    background-color: #6d6d6d;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: #070707;
+    border: solid 1px #fff;
+}  
+
+footer {
+    background-color: #1E1E1E;
+    text-align: center;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+p {
+    margin: 20px 0px 0px 0px;
+    color: #fff;
+}
